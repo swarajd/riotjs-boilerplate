@@ -1,0 +1,16 @@
+<app>
+  <section class="appcontainer">
+    <article>
+      <ul>
+        <li each={ name, i in items }>
+          { name }
+        </li>
+      </ul>
+    </article>
+  </section>
+
+  <script type="es6">
+    this.items = [1, 2, 3, 4, 5]
+    this.items = [...this.items, 6]
+  </script>
+</app>

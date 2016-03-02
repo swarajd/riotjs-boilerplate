@@ -1,0 +1,30 @@
+{
+  "name": "fromscratch",
+  "version": "1.0.0",
+  "description": "a generic riot.js boilerplate",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --inline",
+    "dist": "webpack -p -d",
+    "viewdist": "light-server -s . -p 7000",
+    "lint": "eslint --ext .js,.es6,.html src/*"
+  },
+  "author": "swarajd",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.35",
+    "babel-core": "^5.8.35",
+    "babel-eslint": "^5.0.0",
+    "babel-loader": "^5.4.0",
+    "css-loader": "^0.23.1",
+    "eslint": "^2.2.0",
+    "eslint-config-airbnb": "^6.0.2",
+    "eslint-plugin-react": "^4.1.0",
+    "eslint-plugin-riot": "^0.1.4",
+    "light-server": "^1.1.5",
+    "riot": "^2.3.16",
+    "riotjs-loader": "^2.0.0",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
